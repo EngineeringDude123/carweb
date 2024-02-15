@@ -1,7 +1,7 @@
 version: '2.4'
 services:
   apache:
-    image: johncollegeacc769/Carweb
+    image: johncollegeacc769/carweb
     ports:
     - '80:80'
     volumes:
