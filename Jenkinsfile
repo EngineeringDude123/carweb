@@ -1,4 +1,4 @@
-node('Agent App-Server-CWEB2140')
+node('App-Server-CWEB2140')
 {
     def app
     stage('Cloning Git')
