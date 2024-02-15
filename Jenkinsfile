@@ -8,7 +8,7 @@ node('App-Server-CWEB2140')
 
     stage('Build and Tag')
     {
-        app = docker.build('johncollegeacc769/Carweb')
+        app = docker.build('johncollegeacc769/carweb')
     }
 
     stage('Push to Dockerhub')
